@@ -13,6 +13,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-direction: column;
   background-color: #61a9e4;
 }
 
@@ -20,9 +21,13 @@ body.active {
   background-color: #dc5b5b;
 }
 
+.author {
+  font-size: 4rem;
+}
+
 .conteiner {
   width: 800px;
-  height: 500px;
+  height: 600px;
   padding: 40px 0;
   position: relative;
 }
